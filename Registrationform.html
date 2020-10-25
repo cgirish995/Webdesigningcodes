@@ -1,0 +1,114 @@
+<html doctype!>
+<html>
+
+<head>
+
+    <Title>Registration Form</Title>
+
+    <style>
+
+
+ul{
+    background-color: grey;
+}
+
+li{
+   display:inline-block;
+   padding:10px;
+}
+
+
+    </style>
+</head>
+
+<body style="background-color:darkgrey;">
+
+    <div > 
+    <form >
+
+        <fieldset>  
+
+            <ul class="Header" > 
+                <li><a href="#">Home</a></li>
+                 <li><a href="#">About</a></li>
+                <li><a href="#">Others</a></li>
+            </ul>
+
+            
+
+        <label>Enter Your First Name: <br></label>
+        <input type="text" name="Fname"  required placeholder ="Enter First Name" maxlength="6" autocomplete="off"><br>
+        <br>
+  
+        <label>Enter Your Last Name: <br></label>
+        <input type="text" name ="Lname"  required placeholder ="Enter Last Name">
+        <br>
+
+        <br>
+        <label>Enter Your EmailID: <br></label>
+        <input type="email" name="email"  required placeholder="Enter Email" autocomplete="off"><br>
+        <br>
+
+        <label>Enter Your Password: <br></label>
+        <input type="psw" name="psw-name" required placeholder="Enter password" autocomplete="off"><br>
+        <br>
+     
+
+         
+        <label>Gender:  <br></label>
+        <input type="radio" name="gender" value="male" id="male">Male<br>
+        <input type="radio" name="gender" value="female" id ="female">Female<br>
+        <input type="radio" name="gender" value="others" id ="others">others<br>
+
+        <br>
+        <label>Age: </label>
+        <input type="Number"  name= "age" min="0" max="100"> 
+        <label>DOB :</label>
+        <input type="date"  name="dob" placeholder="Date Of Birth">
+        <br>
+
+
+        <br>
+        <label>Select Course: </label><br>
+        <input type="checkbox" name="" value="" >Java<br>
+        <input type="checkbox" name="" value="" >Testing<br>
+        <input type="checkbox" name="" value="" >Selenium<br>
+        <input type="checkbox" name="" value="" >Developing<br>
+        <br>
+        
+    
+        <br>
+        <label>Enter Address: <br></label>
+        <textarea rows="10"  cols="60"></textarea>
+        <br>
+        <br>
+
+
+        <label>Select City:</label>
+        <select>
+            <option>--Select City---</option>
+            <option>--Bangalore---</option>
+            <option>--Mangalore---</option>
+            </select>
+            <br>
+
+            <br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+
+        
+
+        </fieldset>  
+    </form>
+    </div>  
+
+
+
+
+</body>
+
+
+
+</html>
+
+</html>
